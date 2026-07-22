@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.norad.no)",
+      "WebFetch(domain:www.itad.com)",
+      "Bash(python -c \"import pypdf; print\\('pypdf ok'\\)\")",
+      "Bash(python -c \"import pdfplumber; print\\('pdfplumber ok'\\)\")",
+      "Bash(python -c \"import fitz; print\\('pymupdf ok'\\)\")",
+      "Read(//h/Obsidian/Monitoring, Evaluation and Learning/.obsidian/**)",
+      "Read(//h/Obsidian/Evaluations/.obsidian/**)",
+      "PowerShell(py \"C:\\\\Users\\\\kousa\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-kousa-Desktop-Portfolio-level-evaluations\\\\7d8808a1-84a5-451a-b550-bfff6b882157\\\\scratchpad\\\\convert_vault.py\")"
+    ]
+  }
+}
